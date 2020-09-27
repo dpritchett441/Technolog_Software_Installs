@@ -2,7 +2,7 @@
 
 [![Technolog Logo](/Media/Technolog_Logo.jpg)](https://www.technolog.com/)
 
-The 'Software Installs' PowerShell script is an amalgamation of all the previous seperate software install scripts.
+The 'Software Installs' PowerShell script is an amalgamation of all the previous separate software install scripts.
 
 ## Synopsis
 
