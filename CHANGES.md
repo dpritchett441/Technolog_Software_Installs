@@ -1,9 +1,9 @@
 # Change Log
 - v4.0 (Released: 19/09/2020)
-    * Introdcued 'USL Tablet Install' function and accompanying button
-    * Introdcued 'Production Install' function and accompanying button
-    * Introdcued 'QC Install' function and accompanying button
-    * Introdcued 'Service Install' function and accompanying button
+    * Introduced 'USL Tablet Install' function and accompanying button
+    * Introduced 'Production Install' function and accompanying button
+    * Introduced 'QC Install' function and accompanying button
+    * Introduced 'Service Install' function and accompanying button
     * Updated to include OpenOffice in the software list
     * Updated to include 'QC Software' in the software list
     * Updated to include 'Service Software' in the software list
