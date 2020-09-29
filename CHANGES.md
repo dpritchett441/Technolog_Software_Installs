@@ -1,4 +1,6 @@
 # Change Log
+- v4.1 (Released: 29/09/2020)
+    * Fixed issue what was causing the 'Get-Date' command in the error log to return incorrectly
 - v4.0 (Released: 19/09/2020)
     * Introduced 'USL Tablet Install' function and accompanying button
     * Introduced 'Production Install' function and accompanying button

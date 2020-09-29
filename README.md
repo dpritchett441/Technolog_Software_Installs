@@ -12,14 +12,8 @@ Once the PowerShell script is ran the user will be presented with the below form
 
 ## Latest Release
 
-- v4.0
-    * Introduced 'USL Tablet Install' function and accompanying button
-    * Introduced 'Production Install' function and accompanying button
-    * Introduced 'QC Install' function and accompanying button
-    * Introduced 'Service Install' function and accompanying button
-    * Updated to include OpenOffice in the software list
-    * Updated to include 'QC Software' in the software list
-    * Updated to include 'Service Software' in the software list
+- v4.1 
+    * Fixed issue what was causing the 'Get-Date' command in the error log to return incorrectly
 
 For a full list of releases please check the [Change Log](CHANGES.md)
 
