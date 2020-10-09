@@ -12,8 +12,12 @@ Once the PowerShell script is ran the user will be presented with the below form
 
 ## Latest Release
 
-- v4.1 
-    * Fixed issue what was causing the 'Get-Date' command in the error log to return incorrectly
+- v4.2
+    * Removed 'Production' from all elements of script due to new software control measures
+    * Removed 'Service' from all elements of script due to new software control measures
+    * Removed 'QC' from all elements of script due to new software control measures
+    * Synopsis within script now features links to Github project
+    * Version history removed from script in favour of Github links
 
 For a full list of releases please check the [Change Log](CHANGES.md)
 

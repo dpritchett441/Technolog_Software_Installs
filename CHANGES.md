@@ -1,4 +1,10 @@
 # Change Log
+- v4.2 (Released: 09/10/2020)
+    * Removed 'Production' from all elements of script due to new software control measures
+    * Removed 'Service' from all elements of script due to new software control measures
+    * Removed 'QC' from all elements of script due to new software control measures
+    * Synopsis within script now features links to Github project
+    * Version history removed from script in favour of Github links
 - v4.1 (Released: 29/09/2020)
     * Fixed issue what was causing the 'Get-Date' command in the error log to return incorrectly
 - v4.0 (Released: 19/09/2020)
