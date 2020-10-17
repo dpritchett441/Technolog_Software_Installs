@@ -1,4 +1,18 @@
 # Change Log
+- v5.0 (Released: 17/10/2020)
+    * Border added to 'installation menu' GUI to help offset from background
+    * Removed legacy 'Explorer-Shortcut' function ([Issue Ref: #4](https://github.com/dpritchett441/Technolog_Software_Installs/issues/4))
+    * Progress bar now added to display during software installations ([Issue Ref: #2](https://github.com/dpritchett441/Technolog_Software_Installs/issues/2))
+    * Installation functions updated to provide dynamic updates to progress bar
+    * All 'Invoke' commands replaced with 'Start-Process' ([Issue Ref: #3](https://github.com/dpritchett441/Technolog_Software_Installs/issues/3))
+        > Previously
+        ```powershell
+        $SoftwareName = { & "\\Server\Share\Setup.exe" *Arguments* }
+        ```
+        > Now
+        ```powershell
+        $SoftwareName = { Start-Process -FilePath "\\Server\Share\Setup.exe" -ArgumentList *Arguments* -Wait }
+        ```
 - v4.2 (Released: 09/10/2020)
     * Removed 'Production' from all elements of script due to new software control measures
     * Removed 'Service' from all elements of script due to new software control measures

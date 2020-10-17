@@ -12,14 +12,28 @@ Once the PowerShell script is ran the user will be presented with the below form
 
 ## Latest Release
 
-- v4.2
-    * Removed 'Production' from all elements of script due to new software control measures
-    * Removed 'Service' from all elements of script due to new software control measures
-    * Removed 'QC' from all elements of script due to new software control measures
-    * Synopsis within script now features links to Github project
-    * Version history removed from script in favour of Github links
+- v5.0
+    * Border added to 'installation menu' GUI to help offset from background
+    * Removed legacy 'Explorer-Shortcut' function ([Issue Ref: #4](https://github.com/dpritchett441/Technolog_Software_Installs/issues/4))
+    * Progress bar now added to display during software installations ([Issue Ref: #2](https://github.com/dpritchett441/Technolog_Software_Installs/issues/2))
+    * Installation functions updated to provide dynamic updates to progress bar
+    * All 'Invoke' commands replaced with 'Start-Process' ([Issue Ref: #3](https://github.com/dpritchett441/Technolog_Software_Installs/issues/3))
+        > Previously
+        ```powershell
+        $SoftwareName = { & "\\Server\Share\Setup.exe" *Arguments* }
+        ```
+        > Now
+        ```powershell
+        $SoftwareName = { Start-Process -FilePath "\\Server\Share\Setup.exe" -ArgumentList *Arguments* -Wait }
+        ```
 
 For a full list of releases please check the [Change Log](CHANGES.md)
+
+## Progress bar
+
+#### As of v5.0 the below progress bar will be displayed during the installations to provide an indication of what's currently happening 
+
+![Progress bar](/Samples/ProgressBar.gif)
 
 ## Notifications
 
