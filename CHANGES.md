@@ -1,4 +1,7 @@
 # Change Log
+- v5.1 (Released: 10/11/2020)
+    * Updated 'Datacentre Install' function to include 'HexEdit-Shortcut' function ([Issue Ref: #5](https://github.com/dpritchett441/Technolog_Software_Installs/issues/5))
+    * Amended Oracle package in software list ([Issue Ref: #6](https://github.com/dpritchett441/Technolog_Software_Installs/issues/6))
 - v5.0 (Released: 17/10/2020)
     * Border added to 'installation menu' GUI to help offset from background
     * Removed legacy 'Explorer-Shortcut' function ([Issue Ref: #4](https://github.com/dpritchett441/Technolog_Software_Installs/issues/4))

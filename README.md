@@ -12,20 +12,9 @@ Once the PowerShell script is ran the user will be presented with the below form
 
 ## Latest Release
 
-- v5.0
-    * Border added to 'installation menu' GUI to help offset from background
-    * Removed legacy 'Explorer-Shortcut' function ([Issue Ref: #4](https://github.com/dpritchett441/Technolog_Software_Installs/issues/4))
-    * Progress bar now added to display during software installations ([Issue Ref: #2](https://github.com/dpritchett441/Technolog_Software_Installs/issues/2))
-    * Installation functions updated to provide dynamic updates to progress bar
-    * All 'Invoke' commands replaced with 'Start-Process' ([Issue Ref: #3](https://github.com/dpritchett441/Technolog_Software_Installs/issues/3))
-        > Previously
-        ```powershell
-        $SoftwareName = { & "\\Server\Share\Setup.exe" *Arguments* }
-        ```
-        > Now
-        ```powershell
-        $SoftwareName = { Start-Process -FilePath "\\Server\Share\Setup.exe" -ArgumentList *Arguments* -Wait }
-        ```
+- v5.1
+    * Updated 'Datacentre Install' function to include 'HexEdit-Shortcut' function ([Issue Ref: #5](https://github.com/dpritchett441/Technolog_Software_Installs/issues/5))
+    * Amended Oracle package in software list ([Issue Ref: #6](https://github.com/dpritchett441/Technolog_Software_Installs/issues/6))
 
 For a full list of releases please check the [Change Log](CHANGES.md)
 
